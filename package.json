@@ -1,0 +1,30 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "A todo app that fetches data from an arbitrary API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caleb335/axios-todo.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "API",
+    "Todo",
+    "app",
+    "axios",
+    "fetch"
+  ],
+  "author": "Caleb Olojo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caleb335/axios-todo/issues"
+  },
+  "homepage": "https://github.com/Caleb335/axios-todo#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
