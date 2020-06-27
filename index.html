@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/app.css">
         <title>Todo</title>
     </head>
     <body>
@@ -12,7 +13,25 @@
                 <h1>Todo app</h1>
             </header>
 
-            
+            <!-- lists section -->
+            <div class="todos">
+                <ul>
+
+                </ul>
+            </div>
+
+            <div id="new-todos">
+                <h1>New Todo</h1>
+                <form>
+                    <label for="Name">Name
+                        <input type="text" id="todos__name" />
+                    </label>
+                    <label for="userId">userId
+                        <input type="text" id="todos__id">
+                    </label>
+                    <button type="submit">Add</button>
+                </form>
+            </div>
         </main>
 
         <!-- app script -->
