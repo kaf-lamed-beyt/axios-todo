@@ -1,11 +1,12 @@
 import axios from 'axios'
+import polyfill from "@babel/polyfill"
 
 const API__URL = 'https://jsonplaceholder.typicode.com'
 
-const getTodoList = async () => {
+const getTodos = async () => {
     try {
         const res = await axios.get(`${API__URL}/todos`)
-        const todos = response.data
+        const todos = res.data
 
         console.log(`GET: Here's the list of todos`, todos)
         return todos
@@ -39,7 +40,7 @@ const addTodoItemToDOM = (todos) => {
 }
 
 const main = async () => {
-    addTodoItemToDOM(await getTodoList())
+    addTodoItemToDOM(await getTodos())
 }
 
 main()
